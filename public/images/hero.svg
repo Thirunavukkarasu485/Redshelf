@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 470" role="img" aria-label="Blood bag illustration">
+  <defs>
+    <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E5384A"/><stop offset="1" stop-color="#8F0C1B"/></linearGradient>
+    <clipPath id="bag"><path d="M150 80h180q22 0 22 22v236q0 46-46 46H174q-46 0-46-46V102q0-22 22-22z"/></clipPath>
+    <path id="drop" d="M0-22C13-3 18 6 18 15a18 18 0 0 1-36 0c0-9 5-18 18-37z"/>
+  </defs>
+  <circle cx="240" cy="235" r="205" fill="#FDE3E6"/>
+  <circle cx="240" cy="235" r="150" fill="#FBD0D5"/>
+  <use href="#drop" x="70" y="140" fill="#E5384A" transform="translate(0 0) scale(.9)" />
+  <use href="#drop" x="400" y="110" fill="#C1121F" transform="scale(1)" />
+  <use href="#drop" x="410" y="330" fill="#E5384A" opacity=".7"/>
+  <use href="#drop" x="62" y="350" fill="#C1121F" opacity=".8"/>
+  <!-- hanger -->
+  <path d="M212 82V50a28 28 0 0 1 56 0v32" fill="none" stroke="#1B1220" stroke-width="7" stroke-linecap="round"/>
+  <!-- bag -->
+  <path d="M150 80h180q22 0 22 22v236q0 46-46 46H174q-46 0-46-46V102q0-22 22-22z" fill="#fff"/>
+  <g clip-path="url(#bag)">
+    <rect x="110" y="190" width="260" height="260" fill="url(#liq)"/>
+    <path d="M110 190q32-20 65 0t65 0 65 0 65 0v22H110z" fill="#E5384A"/>
+    <rect x="150" y="215" width="14" height="150" rx="7" fill="#fff" opacity=".25"/>
+  </g>
+  <path d="M150 80h180q22 0 22 22v236q0 46-46 46H174q-46 0-46-46V102q0-22 22-22z" fill="none" stroke="#1B1220" stroke-width="7"/>
+  <!-- scale lines -->
+  <g stroke="#1B1220" stroke-width="4" stroke-linecap="round"><path d="M128 130h24M128 160h14M128 190h24M128 220h14M128 250h24"/></g>
+  <!-- label -->
+  <rect x="188" y="236" width="104" height="92" rx="12" fill="#fff" stroke="#1B1220" stroke-width="4"/>
+  <text x="240" y="292" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="800" font-size="44" fill="#C1121F">O+</text>
+  <path d="M240 300v18M231 309h18" stroke="#1B1220" stroke-width="4" stroke-linecap="round"/>
+  <!-- tube -->
+  <path d="M240 384c0 34 60 22 60 58" fill="none" stroke="#1B1220" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="300" cy="448" r="9" fill="#C1121F" stroke="#1B1220" stroke-width="4"/>
+</svg>
